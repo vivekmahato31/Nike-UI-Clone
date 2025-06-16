@@ -33,7 +33,8 @@ nav .nav1 {
 .nav1 img {
     height: 30px;
     width: auto;
-    margin-right: 5px;
+    color: #000;
+    
 }
 
 .nav1 ul {
@@ -41,6 +42,7 @@ nav .nav1 {
     list-style: none;
     gap: 30px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .nav1 ul li i {
