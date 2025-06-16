@@ -41,3 +41,11 @@ nav .nav1 {
     gap: 20px;
     font-size: 14px;
 }
+
+.nav1 ul li i {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
