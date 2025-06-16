@@ -31,18 +31,20 @@ nav .nav1 {
 }
 
 .nav1 img {
-    height: 50px;
+    height: 30px;
     width: auto;
+    margin-right: 5px;
 }
 
 .nav1 ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-    font-size: 14px;
+    gap: 30px;
+    font-size: 20px;
 }
 
 .nav1 ul li i {
+    margin-right: 10px;
     font-size: 20px;
     display: flex;
     align-items: center;
