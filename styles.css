@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color:#d0d4d5;
+}
+
+.nav {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+nav .nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav1 img {
+    height: 50px;
+    width: auto;
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 14px;
+}
