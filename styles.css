@@ -46,6 +46,11 @@ nav .nav1 {
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
+    opacity: 1;
+}
+
+.nav1 ul:hover{
+    opacity: 1;
 }
 
 .nav1 ul li i {
@@ -108,12 +113,22 @@ nav .nav1 {
     border-radius: 50px;
     border-top-left-radius: 0;
     font-size: 15px;
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
 }
 
 .content-right{
     height: 100%;
     width: 60%;
     padding: 110px 100px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.content-right::-webkit-scrollbar{
+     display: none; 
 }
 
 .products1 {
@@ -122,8 +137,13 @@ nav .nav1 {
     background-color: #1011;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+    display: inline-block;
+    margin: 20px;
+    opacity: 0.8;
 }
-
+.products1:hover{
+    opacity: 1;
+}
 .products1 img{
     height: 100%;
     width: 100%;
@@ -187,6 +207,13 @@ nav .nav1 {
     background-color: #1011;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.8;
+
+}
+.products2:hover{
+    opacity: 1;
 }
 
 .products2 img{
@@ -245,7 +272,7 @@ nav .nav1 {
     
 }
 
-.products2 p{
+.products3 p{
 
     font-size: 12px;
     font-weight: normal;
@@ -256,7 +283,6 @@ nav .nav1 {
     padding-right: 10px;
     padding-left: 10px;
     font-weight: 600;
-    display: inline-block;
     
 }
 
@@ -266,6 +292,13 @@ nav .nav1 {
     background-color: #1011;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.products3:hover{
+    opacity: 1;
 }
 
 .products3 img{
@@ -308,21 +341,7 @@ nav .nav1 {
 
 }
 
-.products4 p{
-
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    position: absolute;
-    bottom: 5%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: 600;
-    
-}
-
-.products4 p{
+.products3 p{
 
     font-size: 12px;
     font-weight: normal;
@@ -342,6 +361,13 @@ nav .nav1 {
     background-color: #1011;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.products4:hover{
+    opacity: 1;
 }
 
 .products4 img{
@@ -386,7 +412,7 @@ nav .nav1 {
 
 }
 
-.products5 p{
+.products4 p{
 
     font-size: 12px;
     font-weight: normal;
@@ -420,6 +446,13 @@ nav .nav1 {
     background-color: #1011;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.products5:hover{
+    opacity: 1;
 }
 
 .products5 img{
@@ -464,7 +497,7 @@ nav .nav1 {
 
 }
 
-.products6 p{
+.products5 p{
 
     font-size: 12px;
     font-weight: normal;
@@ -478,159 +511,4 @@ nav .nav1 {
     
 }
 
-.products6 p{
-
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    position: absolute;
-    bottom: 5%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: 600;
-    
-}
-
-.products6 {
-    height: 370px;
-    width: 250px;
-    background-color: #1011;
-    position: relative;
-    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
-}
-
-.products6 img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    position: absolute;
-    bottom: 20%;
-}
-
-.products6 h4{
-    font-size: 18px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 28%;
-    padding-left: 10px;
-}
-.products6 h4 span {
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    padding-left: 0px;
-}
-
-.category{
-    font-size: 15px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 22%;
-    padding-left: 30px;
-    opacity: 0.8;
-}
-
-.price{
-    font-size: 20px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 20%;
-    padding-left: 10px;
-    font-weight: 500;
-
-}
-
-.products7 p{
-
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    position: absolute;
-    bottom: 5%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: 600;
-    
-}
-
-.products7 p{
-
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    position: absolute;
-    bottom: 5%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: 600;
-    
-}
-
-.products7 {
-    height: 370px;
-    width: 250px;
-    background-color: #1011;
-    position: relative;
-    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
-}
-
-.products7 img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    position: absolute;
-    bottom: 20%;
-}
-
-.products7 h4{
-    font-size: 18px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 28%;
-    padding-left: 10px;
-}
-.products7 h4 span {
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    padding-left: 0px;
-}
-
-.category{
-    font-size: 15px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 22%;
-    padding-left: 30px;
-    opacity: 0.8;
-}
-
-.price{
-    font-size: 20px;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 20%;
-    padding-left: 10px;
-    font-weight: 500;
-
-}
-
-.products7 p{
-
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: capitalize;
-    display: inline;
-    position: absolute;
-    bottom: 5%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: 600;
-    
-}
 
