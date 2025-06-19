@@ -83,7 +83,8 @@ nav .nav1 {
 .content-left h5 {
     font-size: 20px;
     text-transform: capitalize;
-}
+} 
+
 .content-left h1 {
     font-size: 55px;
     text-transform: uppercase;
@@ -92,7 +93,7 @@ nav .nav1 {
 }
 
 .content-left p{
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
     width: 80%;
     margin-bottom: 30px;
@@ -115,7 +116,7 @@ nav .nav1 {
     padding: 110px 100px;
 }
 
-.products{
+.products1 {
     height: 370px;
     width: 250px;
     background-color: #1011;
@@ -123,7 +124,7 @@ nav .nav1 {
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
 }
 
-.products img{
+.products1 img{
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -131,38 +132,505 @@ nav .nav1 {
     bottom: 20%;
 }
 
-.products h4{
+.products1 h4{
     font-size: 18px;
     text-transform: capitalize;
     position: absolute;
     bottom: 28%;
     padding-left: 10px;
 }
+.products1 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
 
 .category{
-    font-size: 18px;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
     text-transform: capitalize;
     position: absolute;
     bottom: 20%;
     padding-left: 10px;
     font-weight: 500;
+
 }
 
-.products h5 p{
-    font-size: 15px;
+.products1 p{
+
+    font-size: 12px;
+    font-weight: normal;
     text-transform: capitalize;
+    display: inline;
     position: absolute;
-    bottom: 28%;
-    padding-left: 30px;
-
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    display: inline-block;
+    
 }
 
-.price{
+.products2 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products2 h4{
     font-size: 18px;
     text-transform: capitalize;
     position: absolute;
-    bottom: 10%;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products2 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
     padding-left: 10px;
     font-weight: 500;
 
 }
+
+.products2 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products2 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+
+.products3 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products3 h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products3 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+
+.products4 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products4 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products4 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products4 h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products4 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+
+.products5 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products5 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products5 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products5 h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products5 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+
+.products6 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products6 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products6 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products6 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products6 h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products6 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+
+.products7 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products7 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.products7 {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.products7 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.products7 h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    padding-left: 10px;
+}
+.products7 h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 0px;
+}
+
+.category{
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+
+.products7 p{
+
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
